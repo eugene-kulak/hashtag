@@ -13,7 +13,11 @@ python3 combine.py docs/doc1.txt.idx docs/doc2.txt.idx docs/doc3.txt.idx docs/do
 ```
 
 to display stats use:
-`python stats.py output.idx`
+```
+python stats.py output.idx
+```
 
 detailed stats:
-`python stats.py -d output.idx`
+```
+python stats.py -d output.idx
+```
