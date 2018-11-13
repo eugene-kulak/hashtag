@@ -1,5 +1,20 @@
 # hashtag
-Some task
+Test project to index words in files
+
+# Installation and requirements
+
+Python 3.6
+
+```
+pip3 install -r requirements.txt
+```
+
+to install NLTK [resources](https://www.nltk.org/data.html):
+```
+python3 -m nltk.downloader all
+```
+
+# Usage
 
 to index files use:
 ```
@@ -21,3 +36,7 @@ detailed stats:
 ```
 python stats.py -d output.idx
 ```
+
+# Links
+(https://nlpforhackers.io/splitting-text-into-sentences/)
+(https://en.wikipedia.org/wiki/Search_engine_indexing)
